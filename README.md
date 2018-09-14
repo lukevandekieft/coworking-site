@@ -69,7 +69,12 @@ _&nbsp;&nbsp;&nbsp;&nbsp;MLM employee who wants a safe & inviting place to call 
 
 ## User Stories
 
-_{FIX ME}_
+* _As a prospective customer, I want the site to clearly show what the business space looks like._
+* _As a prospective customer, I want to know about amenities, pricing, and other reasons to join._
+* _As a customer, I want an up-to-date list of amenities such as activity schedules, coffee flavors, and so forth._
+* _As a customer, I want an easy way to contact staff._
+* _As a manager, I want an easy way to update information on the site._
+* _As an owner, I want the website aesthetic to accurately reflect my company's branding._
 
 ## Setup/Installation Requirements
 
