@@ -1,37 +1,49 @@
-# _{Application Name}_
+# _Coworking Site Pitch_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A start to finish site development for a theoretical coworking client, September 14 2018_
 
-#### By _**{List of contributors}**_
+#### By _**Luke Vandekieft**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This project is an exercise in developing a website based on a theoretical client request.  The full-cycle workflow will go as follows:_
+* _Identify target users & their stories_
+* _Research design ideas & layouts based on the target users and client requests_
+* _Hand-draw pages to decide on page layouts_
+* _Turn drawn layouts into a hi-fi site mockup_
+* _Turn said mockup into a functioning prototype_
+* _Create webpage that accurately reflects the prototype_
+
+_By engaging in this exercise I hope to practice & demonstrate my ability to fulfill a client request in a professional & efficient manner. If you have any suggestions or comments I would love to hear! Feel free to contact me at vandekie@gmail.com._
+
+
+## Target Users
+
+_{FIX ME}_
+
+## User Stories
+
+_{FIX ME}_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _{FIX ME}_
+* _{FIX ME}_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_No known bugs at present._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you have any concerns or suggestions please contact Luke Vandekieft at vandekie@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_{FIX ME}_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*This software is licensed under the MIT License.*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2018 **_Luke Vandekieft_**
