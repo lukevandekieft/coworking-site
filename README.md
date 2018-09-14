@@ -93,9 +93,9 @@ _I decided to go with a pastel, pop, almost retro feel for the design as I felt 
 _This design should meet prospective customer needs by presenting instant visual appeal while still providing useful information. The menu will be clear & navigable enough that the visuals won't be too distracting for returning users & admins simply trying to get the site work. The majority of our prospective users will be tech-savvy enough to understand basic web navigation as most contractors/freelancers/remote workers/creatives looking for a shared urban space will already use the internet for some part of business._
 
 ## Drawn Page Outlines
-![Homepage Sketches](img/homepage-sketches.jpg)
-![Amenities Sketches](img/amenities-sketches.jpg)
-![Contact & Membership Sketches](img/contact-member-sketches.jpg)
+![Homepage Sketches](img/sketches-homepage.jpg)
+![Amenities Sketches](img/sketches-amenities.jpg)
+![Contact & Membership Sketches](img/sketches-contact-member.jpg)
 
 ## Setup/Installation Requirements
 
