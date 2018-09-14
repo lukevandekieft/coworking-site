@@ -76,6 +76,23 @@ _&nbsp;&nbsp;&nbsp;&nbsp;MLM employee who wants a safe & inviting place to call 
 * _As a manager, I want an easy way to update information on the site._
 * _As an owner, I want the website aesthetic to accurately reflect my company's branding._
 
+## Design Decisions
+_The client's design requests can be summarized as:_
+* _Minimum 4 pages: homepage, contact, membership detail, and detailed amenities page._
+* _Luxurious, cool aesthetic that still feels 100% accessible._
+* _Funky, fun, & local feel that separates them from competitors._
+* _Open design that doesn't pigeonhole us with tech workers._
+* _Incorporate physical space in online design: space is bright, open, pastel-colored, and modern-feeling. Plants and light woods are abundant and a recurring heart/love theme is used subtlely._
+
+_Based on these I've decided to go with a modern, image-heavy site that uses pop/pastel colors in a tasteful manner._
+
+_Upscale restaurants & housing sites tend to be very image-heavy as this is what ultimately sells the product. They tend to have minimalist menus at the top that keep the site functional without detracting from the overall feel. Examples include the Aman hotel site, Tusk restaurant, and The Honours restaurant (sans excessive animations)._
+
+_I decided to go with a pastel, pop, almost retro feel for the design as I felt this was the most appropriate for the business and also distinctive. The client's competitors take a minimalist design approach but a colorful look is more distintive and welcoming. In particular I found Portland's Tusk restaurant to be inspiring as it looks very fun & inviting while still conveying the image of luxury - it's simply luxury that isn't exclusive. The artstyle will be distinctly NOT techy and convey a funkier Portland flavor that makes it appeal to Portlanders of all sorts._
+
+_This design should meet prospective customer needs by presenting instant visual appeal while still providing useful information. The menu will be clear & navigable enough that the visuals won't be too distracting for returning users & admins simply trying to get the site work._
+
+
 ## Setup/Installation Requirements
 
 * _{FIX ME}_
