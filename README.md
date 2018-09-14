@@ -97,6 +97,11 @@ _This design should meet prospective customer needs by presenting instant visual
 ![Amenities Sketches](img/sketches-amenities.jpg)
 ![Contact & Membership Sketches](img/sketches-contact-member.jpg)
 
+## Wireframes
+![Homepage Wireframe](img/sketches-homepage.jpg)
+![Amenities Wireframe](img/sketches-amenities.jpg)
+![Contact Wireframe](img/sketches-contact-member.jpg)
+
 ## Setup/Installation Requirements
 
 * _{FIX ME}_
