@@ -88,7 +88,7 @@ _Based on these I've decided to go with a modern, image-heavy site that uses pop
 
 _Upscale restaurants & housing sites tend to be very image-heavy as this is what ultimately sells the product. They tend to have minimalist menus at the top that keep the site functional without detracting from the overall feel. Examples include the Aman hotel site, Tusk restaurant, and The Honours restaurant (sans excessive animations)._
 
-_I decided to go with a pastel, pop, almost retro feel for the design as I felt this was the most appropriate for the business and also distinctive. The client's competitors take a minimalist design approach but a colorful look is more distinctive and welcoming. This classy pastel color scheme is something I've seen work successfully in Mackinac Island's Grand Hotel (not the website!), Portland's Tusk restaurant, and various makeup & handbag websites. In particular I found Portland's Tusk restaurant to be inspiring as it looks very fun & inviting while still conveying the image of luxury - it's simply luxury that isn't exclusive. The art style will be distinctly NOT techy and convey a funkier Portland flavor that makes it appeal to Portlanders of all sorts._
+_I decided to go with a pastel, modern, and vaguely retro feel for the design as this felt both appropriate for the business and distinctive. The client's competitors take a minimalist design approach but a colorful look is more unique and welcoming. This classy pastel color scheme is something I've seen work successfully in Mackinac Island's Grand Hotel (not the website!), Portland's Tusk restaurant, and various makeup ad campaigns. In particular I found Portland's Tusk website to be inspiring as it looks very fun & inviting while still conveying the image of luxury - it's simply luxury that isn't exclusive. The art style will be distinctly NOT techy and convey a funkier Portland flavor that makes it appeal to Portlanders of all sorts._
 
 _This design should meet prospective customer needs by presenting instant visual appeal while still providing useful information. The menu will be clear & navigable enough that the visuals won't be too distracting for returning users & admins simply trying to get the site work. The majority of our prospective users will be tech-savvy enough to understand basic web navigation as most contractors/freelancers/remote workers/creatives looking for a shared urban space will already use the internet for some part of business._
 
@@ -98,9 +98,10 @@ _This design should meet prospective customer needs by presenting instant visual
 ![Contact & Membership Sketches](img/sketches-contact-member.jpg)
 
 ## Wireframes
-![Homepage Wireframe](img/sketches-homepage.jpg)
-![Amenities Wireframe](img/sketches-amenities.jpg)
-![Contact Wireframe](img/sketches-contact-member.jpg)
+![Homepage Wireframe](img/wireframe-homepage.png)
+![Amenities Wireframe](img/wireframe-amenities.png)
+![Membership Wireframe](img/wireframe-membership.png)
+![Contact Wireframe](img/wireframe-contact.png)
 
 ## Setup/Installation Requirements
 
