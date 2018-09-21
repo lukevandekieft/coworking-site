@@ -94,23 +94,36 @@ _This design should meet prospective customer needs by presenting instant visual
 
 ## Drawn Page Outlines
 ![Homepage Sketches](src/assets/images/sketches-homepage.jpg)
+
 ![Amenities Sketches](src/assets/images/sketches-amenities.jpg)
+
 ![Contact & Membership Sketches](src/assets/images/sketches-contact-member.jpg)
 
 ## Wireframes
 ![Homepage Wireframe](src/assets/images/wireframe-homepage.png)
+
 ![Amenities Wireframe](src/assets/images/wireframe-amenities.png)
+
 ![Membership Wireframe](src/assets/images/wireframe-membership.png)
+
 ![Contact Wireframe](src/assets/images/wireframe-contact.png)
 
 ## Setup/Installation Requirements
 
-* _{FIX ME}_
-* _{FIX ME}_
+* _Download file from Github._
+      $ git clone https://github.com/lukevandekieft/coworking-site.git
+* _Install NPM (node package manager) as needed - instructions can be found at https://www.npmjs.com/get-npm._
+* _Initialize NPM in project._
+      $ npm init -y
+* _Install necessary webpack dependencies into project._
+      $ npm install
+* _Compile and open webpage in developer mode._
+      $ npm run start
 
 ## Known Bugs
 
-_No known bugs at present._
+* _Srcset commands are not functioning correctly with webpack._
+* _Webpages not fully built out - work in progress._
 
 ## Support and contact details
 
@@ -118,7 +131,9 @@ _If you have any concerns or suggestions please contact Luke Vandekieft at vande
 
 ## Technologies Used
 
-_{FIX ME}_
+* _CSS, HTML, JavaScript_
+* _Sketch designer_
+* _Webpack compiler_
 
 ### License
 
