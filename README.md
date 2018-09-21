@@ -93,15 +93,15 @@ _I decided to go with a pastel, modern, and vaguely retro feel for the design as
 _This design should meet prospective customer needs by presenting instant visual appeal while still providing useful information. The menu will be clear & navigable enough that the visuals won't be too distracting for returning users & admins simply trying to get the site work. The majority of our prospective users will be tech-savvy enough to understand basic web navigation as most contractors/freelancers/remote workers/creatives looking for a shared urban space will already use the internet for some part of business._
 
 ## Drawn Page Outlines
-![Homepage Sketches](img/sketches-homepage.jpg)
-![Amenities Sketches](img/sketches-amenities.jpg)
-![Contact & Membership Sketches](img/sketches-contact-member.jpg)
+![Homepage Sketches](src/assets/images/sketches-homepage.jpg)
+![Amenities Sketches](src/assets/images/sketches-amenities.jpg)
+![Contact & Membership Sketches](src/assets/images/sketches-contact-member.jpg)
 
 ## Wireframes
-![Homepage Wireframe](img/wireframe-homepage.png)
-![Amenities Wireframe](img/wireframe-amenities.png)
-![Membership Wireframe](img/wireframe-membership.png)
-![Contact Wireframe](img/wireframe-contact.png)
+![Homepage Wireframe](src/assets/images/wireframe-homepage.png)
+![Amenities Wireframe](src/assets/images/wireframe-amenities.png)
+![Membership Wireframe](src/assets/images/wireframe-membership.png)
+![Contact Wireframe](src/assets/images/wireframe-contact.png)
 
 ## Setup/Installation Requirements
 
