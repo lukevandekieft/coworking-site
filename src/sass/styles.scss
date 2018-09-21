@@ -1,0 +1,14 @@
+$navHeight: 90px;
+
+* {
+  margin: 0 0;
+  border: dashed grey;
+  background: red;
+}
+
+.navBar {
+  height: $navHeight;
+  img {
+    height: 100%;
+  }
+}
