@@ -3,11 +3,12 @@ $navHeight: 90px;
 * {
   margin: 0 0;
   padding: 0 0;
-  // border: dashed grey;
+  border: dashed grey 1px;
 }
 
 body {
   width: 100%;
+  height: 100%;
   overflow: hidden;
   box-sizing: border-box;
   display:flex;
@@ -34,6 +35,20 @@ body {
   }
 }
 
+.logo-box {
+  width: auto;
+}
+
+.mainContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .splashImage {
   height: 40%;
   overflow: hidden;
@@ -47,4 +62,9 @@ body {
   width: 90%;
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
+  font-size: 20px;
+}
+
+.downArrow {
+  transform: rotate(180deg);
 }
