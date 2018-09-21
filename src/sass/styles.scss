@@ -28,6 +28,7 @@ body {
   display:flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 
 .navBar {
@@ -47,7 +48,6 @@ body {
   div {
     align-items: center;
     img {
-      display: 3;
       max-height: 100%;
       max-width: 100%;
     }
@@ -59,8 +59,7 @@ body {
   box-sizing: border-box;
 }
 
-.menuItems {
-  // display: none;
+#menuItems {
   display: grid;
   position: absolute;
   grid-template: repeat(3, 1fr) / 1fr;
