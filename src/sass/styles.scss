@@ -2,13 +2,44 @@ $navHeight: 90px;
 
 * {
   margin: 0 0;
-  border: dashed grey;
-  background: red;
+  padding: 0 0;
+  // border: dashed grey;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dropdownMenu {
+  display: none;
 }
 
 .navBar {
   height: $navHeight;
-  img {
-    height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  div {
+    img {
+      height: 100%;
+      width: auto;
+    }
   }
+}
+
+.splashImage {
+  height: 100%;
+  overflow: hidden;
+  // width: 70%;
 }

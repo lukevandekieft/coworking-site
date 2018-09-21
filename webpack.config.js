@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-// const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-// const CleanWebpackPlugin = require('clean-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
 
@@ -56,25 +56,25 @@ module.exports = {
     inject: 'body',
     template: './src/index.html',
     filename: 'index.html',
-    // minify: {
-    //   removeComments: true,
-    //   collapseWhitespace: true
-    // }
+    minify: {
+      removeComments: true,
+      collapseWhitespace: true
+    }
   }),
 
   new HtmlWebpackPlugin({
     inject: 'body',
     template: './src/contact.html',
     filename: 'contact.html',
-    // minify: {
-    //   removeComments: true,
-    //   collapseWhitespace: true
-    // }
+    minify: {
+      removeComments: true,
+      collapseWhitespace: true
+    }
   }),
 
-    // new UglifyJsPlugin(),
-    //
-    // new CleanWebpackPlugin(['dist'])
+    new UglifyJsPlugin(),
+
+    new CleanWebpackPlugin(['dist'])
 
   ]
 
