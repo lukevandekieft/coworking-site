@@ -2,6 +2,7 @@ $navHeight: 90px;
 $headerColor: #6CB3A5;
 $background-color: #FFFFFF;
 $maxPageWidth: 1240px;
+$contentWidth: 85%;
 
 
 @mixin textFont {
@@ -109,12 +110,18 @@ body {
 .mainContent {
   width: 100%;
   height: calc(100% - #{$navHeight} - 20px);
-  display: flex;
   position: relative;
+  margin-bottom: 20px;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+}
+
+.contact-content {
+  width: $contentWidth;
+  display: grid;
+  grid-template: repeat(5, auto) / repeat(2, auto);
 }
 
 .splashImage {
@@ -139,7 +146,7 @@ body {
 }
 
 .generalMessage {
-  width: 85%;
+  width: $contentWidth;
   max-width: $maxPageWidth;
   @include textFont;
 }
