@@ -1,6 +1,7 @@
 $navHeight: 90px;
 $headerColor: #6CB3A5;
 $background-color: #FFFFFF;
+$maxPageWidth: 1240px;
 
 
 @mixin textFont {
@@ -37,14 +38,11 @@ body {
   background-color: $background-color;
   z-index: 1;
   width: 95%;
+  max-width: $maxPageWidth;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  .logo-box, .hamburger-menu-box {
-    display: flex;
-    height: inherit;
-  }
   div {
     align-items: center;
     img {
@@ -54,7 +52,17 @@ body {
   }
 }
 
+.hamburger-menu-box {
+  display: flex;
+  height: inherit;
+  @media screen and (min-width: 700px) {
+    display: none;
+  }
+}
+
 .logo-box {
+  display: flex;
+  height: inherit;
   padding: 8px 30px 8px 5px;
   box-sizing: border-box;
 }
@@ -79,6 +87,19 @@ body {
     padding: 5px 20px;
     width: 100%;
   }
+  @media screen and (min-width: 700px) {
+    display: flex !important;
+    position: relative;
+    flex-direction: row;
+    top: auto;
+    right: auto;
+    border-top: none;
+    width: 50%;
+    a {
+      padding: 0 0;
+      text-align: center;
+    }
+  }
 }
 
 .mainContent {
@@ -98,11 +119,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  img {}
+  @media screen and (min-width: 700px) {
+    height: 50%;
+  }
+  @media screen and (min-width: 950px) {
+    height: 60%;
+  }
 }
 
 .generalMessage {
   width: 85%;
+  max-width: $maxPageWidth;
   @include textFont;
 }
 
