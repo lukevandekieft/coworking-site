@@ -1,0 +1,35 @@
+{
+  "name": "coworking-site",
+  "version": "1.0.0",
+  "description": "_This project is an exercise in developing a website based on a theoretical client request.  The full-cycle workflow will go as follows:_\r * _Identify target users & their stories_\r * _Research design ideas & layouts based on the target users and client requests_\r * _Hand-draw pages to decide on page layouts_\r * _Turn drawn layouts into a hi-fi site mockup_\r * _Turn said mockup into a functioning prototype_\r * _Create webpage that accurately reflects the prototype_",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukevandekieft/coworking-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukevandekieft/coworking-site/issues"
+  },
+  "homepage": "https://github.com/lukevandekieft/coworking-site#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.10",
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.20.2",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
