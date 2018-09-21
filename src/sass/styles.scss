@@ -3,7 +3,7 @@ $navHeight: 90px;
 * {
   margin: 0 0;
   padding: 0 0;
-  border: dashed grey 1px;
+  // border: dashed grey 1px;
 }
 
 body {
@@ -28,15 +28,20 @@ body {
   justify-content: space-between;
   align-items: center;
   div {
+    height: inherit;
+    display: flex;
+    align-items: center;
     img {
-      height: 100%;
-      width: auto;
+      display: block;
+      max-height: 100%;
+      max-width: 100%;
     }
   }
 }
 
 .logo-box {
-  width: auto;
+  padding: 8px 30px 8px 5px;
+  box-sizing: border-box;
 }
 
 .mainContent {
@@ -59,7 +64,7 @@ body {
 }
 
 .generalMessage {
-  width: 90%;
+  width: 85%;
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -67,4 +72,5 @@ body {
 
 .downArrow {
   transform: rotate(180deg);
+  
 }
