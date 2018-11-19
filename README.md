@@ -1,12 +1,12 @@
 # _Coworking Site Pitch_
 
-#### _A start to finish site development for a theoretical coworking client, September 14 2018_
+#### _A start to finish site development for a theoretical coworking client, September 21 2018_
 
 #### By _**Luke Vandekieft**_
 
 ## Description
 
-_This project is an exercise in developing a website based on a theoretical client request.  The full-cycle workflow will go as follows:_
+_This project is an exercise in developing a website based on a theoretical client request. The full-cycle workflow will go as follows:_
 * _Identify target users & their stories_
 * _Research design ideas & layouts based on the target users and client requests_
 * _Hand-draw pages to decide on page layouts_
@@ -93,11 +93,9 @@ _I decided to go with a pastel, modern, and vaguely retro feel for the design as
 _This design should meet prospective customer needs by presenting instant visual appeal while still providing useful information. The menu will be clear & navigable enough that the visuals won't be too distracting for returning users & admins simply trying to get the site work. The majority of our prospective users will be tech-savvy enough to understand basic web navigation as most contractors/freelancers/remote workers/creatives looking for a shared urban space will already use the internet for some part of business._
 
 ## Drawn Page Outlines
-![Homepage Sketches](src/assets/images/sketches-homepage.jpg)
-
-![Amenities Sketches](src/assets/images/sketches-amenities.jpg)
-
-![Contact & Membership Sketches](src/assets/images/sketches-contact-member.jpg)
+<img src="https://github.com/lukevandekieft/coworking-site/blob/master/src/assets/images/sketches-homepage.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/lukevandekieft/coworking-site/blob/master/src/assets/images/sketches-amenities.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/lukevandekieft/coworking-site/blob/master/src/assets/images/sketches-contact-member.jpg" alt="drawing" width="200"/>
 
 ## Wireframes
 ![Homepage Wireframe](src/assets/images/wireframe-homepage.png)
@@ -108,34 +106,44 @@ _This design should meet prospective customer needs by presenting instant visual
 
 ![Contact Wireframe](src/assets/images/wireframe-contact.png)
 
+
 ## Setup/Installation Requirements
 
-* _Download file from Github._
+_Live site is at https://coworking-site.firebaseapp.com/_
+<br>
+<br>
+
+_To download & edit do the following:_
+
+* _Get file from Github._
+
       $ git clone https://github.com/lukevandekieft/coworking-site.git
-* _Install NPM (node package manager) as needed - instructions can be found at https://www.npmjs.com/get-npm._
-* _Initialize NPM in project._
-      $ npm init -y
-* _Install necessary webpack dependencies into project._
+
+* _Install NPM (node package manager) as needed - instructions can be found at https://www.npmjs.com/get-npm ._
+
+* _Install necessary webpack dependencies for project._
+
       $ npm install
+
 * _Compile and open webpage in developer mode._
+
       $ npm run start
 
-## Known Bugs
-
-* _Srcset commands are not functioning correctly with webpack._
-* _Webpages not fully built out - work in progress._
-
-## Support and contact details
-
-_If you have any concerns or suggestions please contact Luke Vandekieft at vandekie@gmail.com_
 
 ## Technologies Used
 
-* _CSS, HTML, JavaScript_
-* _Sketch designer_
-* _Webpack compiler_
+* _HTML_
+* _CSS_
+* _Sass preprocessor_
+* _Webpack_
+* _JavaScript_
 
-### License
+
+## Support and contact details
+
+_If you have any suggestions or comments please forward them to Luke Vandekieft at vandekie@gmail.com_
+
+## License
 
 *This software is licensed under the MIT License.*
 

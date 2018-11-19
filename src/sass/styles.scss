@@ -6,23 +6,21 @@ $contentWidth: 85%;
 $secondaryColor: #E2B58D;
 $standard-gap: 10px;
 
-
 @mixin textFont {
-font-family: 'Nunito', sans-serif;
-font-weight: 300;
-font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
 };
 
 @mixin menuFont {
-font-family: 'Nunito', sans-serif;
-font-weight: 800;
-font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
 };
 
 * {
   margin: 0 0;
   padding: 0 0;
-  // border: dashed grey 1px;
 }
 
 body {
@@ -132,10 +130,10 @@ body {
   @include textFont;
   input {
     width: $contentWidth;
-        min-height: 25px;
-        border: solid $headerColor 1.5px;
-        border-style:solid;
-        border-radius: 5px;
+    min-height: 25px;
+    border: solid $headerColor 1.5px;
+    border-style:solid;
+    border-radius: 5px;
   }
   .sub-header {
     grid-column: 1 / 3;
